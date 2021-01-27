@@ -1,4 +1,4 @@
-package pl.basic1;
+package pl.karkro;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ public class CapitalizeFirstLetters {
         String str = sc.nextLine();
         String[] words = str.split(" ");
         for(String word : words) {
-            System.out.print(Character.toUpperCase(word.charAt(0)) + word.substring(1, word.length()) + " ");
+            System.out.print(Character.toUpperCase(word.charAt(0)) + word.substring(1) + " ");
         }
     }
 }

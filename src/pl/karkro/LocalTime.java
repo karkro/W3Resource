@@ -1,4 +1,4 @@
-package pl.basic1;
+package pl.karkro;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

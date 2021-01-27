@@ -1,4 +1,4 @@
-package pl.basic1;
+package pl.karkro;
 
 import java.io.Console;
 import java.util.Scanner;

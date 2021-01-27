@@ -1,4 +1,4 @@
-package pl.basic1;
+package pl.karkro;
 
 import java.io.IOException;
 import java.nio.file.Files;

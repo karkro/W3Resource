@@ -1,19 +1,16 @@
-package pl.basic1;
+package pl.karkro;
 
 import java.util.Scanner;
 
-public class EvenOrOdd {
+public class MultiplicationUpTo10 {
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Input number: ");
         int num = sc.nextInt();
-
-        if (num % 2 == 0) {
-            System.out.printf("The number %d is even.", num);
-        } else  {
-            System.out.printf("The number %d is odd.", num);
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + " * " + i + " = " + (num * i));
         }
     }
 }
